@@ -2,9 +2,9 @@
 
 namespace spreadsheet
 {
-    class Program
+    static class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var sheet = new Spreadsheet(4, 3);
             sheet[0,0] = "Apple";
